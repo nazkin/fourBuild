@@ -1,0 +1,39 @@
+.navGrid{
+    background-color: rgb(205, 205, 205, 0.2);
+    flex-grow: 1;
+    padding: 2px 2px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:  #1b5f00;
+    border-bottom: 4px double #1b5f00;
+    min-height: 5rem;
+}
+.navTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+   
+
+}
+
+.navBottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
+.navCallUS{
+    display: inline-block;
+}
+.header-link{
+    color: #1b5f00;
+    border-bottom: 2px solid #1b5f00;
+    text-decoration: none;
+}
+.header-link:hover{
+    opacity: 0.75;
+}
