@@ -1,0 +1,16 @@
+.projects-grid{
+    width: 100%;
+    padding: 10em;
+}
+.projectPhoto{
+    width: 100%;
+    height: auto;
+}
+.project-grid-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 2rem;
+}

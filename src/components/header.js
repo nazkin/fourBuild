@@ -63,7 +63,7 @@ const Header = ({ siteTitle }) => {
         <Hidden smDown>
           <Grid className="navBottom" item xs={8}>
     
-              <Link style={{textDecoration: "none"}} to="/index">
+              <Link style={{textDecoration: "none"}} to="/">
                <h3 className="header-link">Home</h3>
               </Link>
               <Link style={{textDecoration: "none"}} to="/gallery">

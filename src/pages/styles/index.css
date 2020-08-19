@@ -45,6 +45,10 @@
     justify-content: space-evenly;
     align-items: space-evenly;
     flex-wrap: wrap;
+    padding: 2em;
+    background: rgb(226,228,224);
+    background: linear-gradient(174deg, rgba(226,228,224,1) 0%, rgba(255,255,255,1) 77%);
+  
 }
 .services-title{
     width: 100%;
@@ -54,9 +58,41 @@
     font-weight: 500;
     letter-spacing: 2px;
     color: rgb(60, 105, 17);
-    border-bottom: 6px double rgb(60, 105, 17);
-    margin-top:0.5em;
-    margin-bottom: 0.5em;
+    border-bottom: 6px double #3c6911;
+    margin-top: 1rem;
+    margin-bottom:1em;
     margin-left: 0.5em;
     margin-right: 0.5em;
+}
+.service-grid{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em;
+}
+.service-grid-item{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+.service-image{
+    height: auto;
+    width: 90%;
+    margin: 0;
+    max-height: 13rem;
+   
+}
+.service-name{
+    width: 90%;
+    padding: 0.5rem;
+    font-size: 18px;
+    background-color: rgba(0,0,0, 0.9);
+    color: snow;
+
+   
+
+  
 }
