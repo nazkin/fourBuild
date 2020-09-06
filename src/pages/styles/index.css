@@ -33,9 +33,10 @@
 
 .hero-title{
     color: snow;
-    font-size: 3.5em;
+    font-size: 4rem;
     letter-spacing: 2px;
-    border-bottom: 2px solid snow;
+    width: 100%;
+    text-align: center;
 }
 .services-main{
     width: 100%;

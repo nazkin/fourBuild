@@ -11,6 +11,8 @@ import { useStaticQuery, graphql } from "gatsby"
 import CssBaseline from '@material-ui/core/CssBaseline'
 import Footer from './footer'
 import Header from "./header"
+import FooterContact from "./footerContact"
+
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -33,6 +35,7 @@ const Layout = ({ children }) => {
         <main>
           {children}
         </main>
+      <FooterContact />
       <Footer />
     </>
   )
