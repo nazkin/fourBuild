@@ -12,14 +12,14 @@ const ContactFooter = () => {
         <div className="footer-contact">
             <Grid container>
                 
-                <Grid className="footer-contact-gridItem" item md={6}>
+                <Grid className="footer-contact-gridItem" item xs={12} md={6}>
                     
                         <span><LocalPhoneIcon fontSize="large" /></span>
                         <h3>CALL US !</h3>
                   
                     <p>Tel: 415-332-3324</p>
                 </Grid>
-                <Grid className="footer-contact-gridItem" item md={6}>
+                <Grid className="footer-contact-gridItem" item xs={12} md={6}>
                     
                         <span><EmailIcon fontSize="large" /></span>
                         <h3> EMAIL US !</h3>

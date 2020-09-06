@@ -29,7 +29,7 @@ const useStyles = makeStyles({
 
 const Header = ({ siteTitle }) => {
   const [drawerOpen, setDrawerOpen] = useState(false);
-  const dummyCategories = ["Home", "Gallery", "About", "Contact"]
+  const dummyCategories = [{name: "Home", link: "/"}, {name: "Gallery", link: "/gallery"}, {name: "About", link: "/about"}, {name: "Contact", link: "/contact"}]
   const classes = useStyles();
 
   const drawerToggle = ()=>{
@@ -40,7 +40,9 @@ const Header = ({ siteTitle }) => {
       <List>
         {dummyCategories.map((text, index) => (
           <ListItem className={classes.listItem} button key={text}>
-            <ListItemText primary={text} />
+            <Link style={{textDecoration: "none", color: '#1b5f00'}} to={text.link}>
+              <ListItemText primary={text.name} />
+            </Link> 
           </ListItem>
         ))}
       </List>
