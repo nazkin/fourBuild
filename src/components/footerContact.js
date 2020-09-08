@@ -14,17 +14,17 @@ const ContactFooter = () => {
                 
                 <Grid className="footer-contact-gridItem" item xs={12} md={6}>
                     
-                        <span><LocalPhoneIcon fontSize="large" /></span>
-                        <h3>CALL US !</h3>
+                    <span><LocalPhoneIcon fontSize="large" /></span>
+                    <h3>CALL US !</h3>
                   
                     <p>Tel: 415-332-3324</p>
                 </Grid>
                 <Grid className="footer-contact-gridItem" item xs={12} md={6}>
                     
-                        <span><EmailIcon fontSize="large" /></span>
-                        <h3> EMAIL US !</h3>
+                    <span><EmailIcon fontSize="large" /></span>
+                    <h3> EMAIL US !</h3>
                   
-                    <p>estimating@texasconcretellc.com</p>
+                    <p>estimating@4buildconcretellc.com</p>
                 </Grid>
             </Grid>
         </div>

@@ -1,26 +1,26 @@
-import React from 'react'
+import React from 'react';
+import Layout from '../components/layout';
+import PageTitle from '../components/pageTitle';
 import Grid from '@material-ui/core/Grid';
-import Layout from '../components/layout'
-import PageTitle from '../components/pageTitle'
-import testPhoto from '../images/gallery.jpeg';
-import './styles/gallery.css'
+import GridList from '../components/gridList';
+import {tileData19, tileData20} from '../data';
+import './styles/gallery.css';
+
 const Gallery = () => {
-const projectFiles = ["File1", "File1", "File1", "File1","File1","File1","File1","File1"]
 
     return(
         <Layout>
             <PageTitle title="Project Gallery" />
-            <Grid className="projects-grid" container>
-                {
-                    projectFiles.map(file=> {
-
-                        return  <Grid className="project-grid-item" item sm={5} lg={3}>
-                                    <img className="projectPhoto" src={testPhoto} alt="project photo" />
-                                </Grid>
-                    })
-                
-                }
-            </Grid>
+            <Grid container>
+                <Grid className="grid-gallery" item md={6}>
+                    <h1>Summer 2019 </h1>
+                    <GridList tileData={tileData19}/>
+                </Grid>
+                <Grid className="grid-gallery" item md={6}>
+                    <h1>Summer 2020 </h1>
+                    <GridList tileData={tileData20}/>
+                </Grid>
+            </Grid>    
         </Layout>
     )
 }

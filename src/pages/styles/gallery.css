@@ -14,3 +14,15 @@
     overflow: hidden;
     padding: 2rem;
 }
+.grid-gallery{
+    padding: 10px;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.grid-gallery h1{
+    font-weight: 300;
+    text-transform: uppercase;
+    color: darkred;
+}

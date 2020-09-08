@@ -1,8 +1,6 @@
 .page-title-container{
     width: 100%;
     min-height: 5em;
-    background: rgb(206,215,196);
-    background: linear-gradient(174deg, rgba(206,215,196,1) 0%, rgba(255,255,255,1) 100%);
     font-size: 48px;
     color: #3c6911;
     font-weight: 500;

@@ -1,5 +1,6 @@
 .navGrid{
-    background-color: rgb(205, 205, 205, 0.2);
+    background: rgb(206,215,196);
+    background: linear-gradient(174deg, rgba(206,215,196,1) 0%, rgba(255,255,255,1) 100%);
     flex-grow: 1;
     padding: 2px 2px;
     flex-direction: row;
@@ -15,8 +16,6 @@
     justify-content: space-between;
     align-items: flex-start;
     color: darkred;
-   
-
 }
 
 .navBottom{
@@ -24,7 +23,6 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
-
 }
 
 .navCallUS{
