@@ -1,3 +1,20 @@
+## 4Build is a construction company out of Missisauga ON
+This is a simple statically served rough version of a potential website that was coded using Gatsby.js/GraphQl and Material UI.
+
+## You can find the deployed version of the website at the URL below
+https://flamboyant-pasteur-b60625.netlify.app
+
+
+### Website Features
+- Homepage
+- Project Gallery
+- Contact page
+- About Page
+
+Developed and designed by Nazar Kinash
+
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
